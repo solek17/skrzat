@@ -29,6 +29,7 @@
 *.dylib
 
 # Executables
+bin/*
 *.exe
 *.out
 *.app
@@ -41,6 +42,9 @@
 *.su
 *.idb
 *.pdb
+
+# Vim
+*.swp
 
 # Kernel Module Compile Results
 *.mod*

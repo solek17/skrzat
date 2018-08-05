@@ -1,0 +1,11 @@
+Network Byte Order is also known as Big-Endian Byte Order
+htons() - convert from Host Byte Order to Network Byte Order short
+htonl() - convert from Host Byte Order to Network Byte Order long
+ntohs() - convert from Network Byte Order to Host Byte Order short
+ntohl() - convert from Network Byte Order to Host Byte Order long
+
+inet_addr() - convert IP string into numbers and dots unsigned long. Returns 
+              data in network Byte order.
+inet_aton() - convert ascii to network
+memset() - set memory area to zeros
+perror() - SEE MAN PAGE, and find out how to use it with errno
